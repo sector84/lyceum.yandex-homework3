@@ -7,7 +7,7 @@ screen = pygame.display.set_mode(size)
 
 def draw():
     blue = pygame.Color('blue')
-    points = [(15, 15+45), (280, 15+90)]
+    points = [(15, 15+45), (280, 45)]
     pygame.draw.rect(screen, blue, points, 0)
 
 
