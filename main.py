@@ -6,7 +6,9 @@ screen = pygame.display.set_mode(size)
 
 
 def draw():
-    pass
+    white = pygame.Color('white')
+    points = [(15, 15), (280, 15+45)]
+    pygame.draw.rect(screen, white, points, 0)
 
 
 if __name__ == '__main__':
