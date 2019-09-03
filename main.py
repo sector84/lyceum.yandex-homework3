@@ -9,6 +9,9 @@ def draw():
     green = pygame.Color('green')
     points = [(10, 10), (15, 280)]
     pygame.draw.rect(screen, green, points, 0)
+    white = pygame.Color('white')
+    points = [(15, 15), (280, 45)]
+    pygame.draw.rect(screen, white, points, 0)
 
 
 if __name__ == '__main__':
